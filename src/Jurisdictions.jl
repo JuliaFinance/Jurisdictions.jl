@@ -1,10 +1,8 @@
 module Jurisdictions
 
-using Markets
-
+using Reexport
+@reexport using Markets
 export Jurisdiction
-export Markets, Market
-export Currencies, Currency
 
 struct Jurisdiction
     name::String
