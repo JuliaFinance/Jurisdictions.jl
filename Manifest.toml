@@ -13,8 +13,8 @@ deps = ["Mmap"]
 uuid = "8bb1440f-4735-579b-a4ab-409b98df4dab"
 
 [[Markets]]
-deps = ["Currencies"]
-git-tree-sha1 = "9f683418a9834e292195d4d2d3c6c16f7ced7267"
+deps = ["Currencies", "Reexport"]
+git-tree-sha1 = "cc8dcd8524bdc6b4e60d556dc2d19062baf1afbb"
 repo-rev = "master"
 repo-url = "https://github.com/JuliaFinance/Markets.jl.git"
 uuid = "b44f5480-3750-11e9-03b7-d5e34f572a03"

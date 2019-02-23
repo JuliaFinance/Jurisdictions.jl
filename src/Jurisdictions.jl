@@ -4,9 +4,9 @@ using Reexport
 @reexport using Markets
 export Jurisdiction
 
-struct Jurisdiction
+struct Jurisdiction{C<:Currency}
     name::String
-    market::Market
+    market::Market{C}
 end # module
 
 end
